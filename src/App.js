@@ -1,9 +1,10 @@
 import './App.css';
+import bg from './Components/Assets/stacked-waves-haikei.svg';
 import AppInterface from './Components/AppInterface/AppInterface';
 
 function App() {
   return (
-    <section className='flex justify-center items-center h-screen'>
+    <section className='flex justify-center items-center h-screen bg-no-repeat bg-cover' style={{ backgroundImage: `url(${bg})` }}>
 
       <div className="mockup-phone">
         <div className="camera"></div>
