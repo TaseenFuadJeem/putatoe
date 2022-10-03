@@ -1,4 +1,5 @@
 import React from 'react';
+import Features from './Features';
 import Header from './Header';
 
 const AppInterface = () => {
@@ -6,6 +7,7 @@ const AppInterface = () => {
         <section className='overflow-x-auto overflow-y-hidden flex-none'>
 
             <Header />
+            <Features />
 
         </section>
     );
