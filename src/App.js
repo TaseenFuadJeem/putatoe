@@ -1,4 +1,5 @@
 import './App.css';
+import AppInterface from './Components/AppInterface/AppInterface';
 
 function App() {
   return (
@@ -7,8 +8,8 @@ function App() {
       <div className="mockup-phone">
         <div className="camera"></div>
         <div className="display">
-          <div className="artboard artboard-demo phone-1">
-
+          <div className="artboard  phone-1">
+            <AppInterface />
           </div>
         </div>
       </div>
