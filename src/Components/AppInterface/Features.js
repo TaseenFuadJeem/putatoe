@@ -117,15 +117,15 @@ const Features = () => {
                 </div>
                 <div>
                     <FaRegNewspaper className="text-primary text-3xl mx-auto mb-1" />
-                    <p className='text-center text-[9px]'>News</p>
+                    <p className='text-center text-[9px] text-red-400'>Coming Soon</p>
                 </div>
                 <div>
                     <FaBlogger className="text-primary text-3xl mx-auto mb-1" />
-                    <p className='text-center text-[9px]'>Blogs</p>
+                    <p className='text-center text-[9px] text-red-400'>Coming Soon</p>
                 </div>
                 <div>
                     <FaHandshake className="text-primary text-3xl mx-auto mb-1" />
-                    <p className='text-center text-[9px]'>Jobs</p>
+                    <p className='text-center text-[9px] text-red-400'>Coming Soon</p>
                 </div>
                 <div>
                     <MdOutlineFeedback className="text-primary text-3xl mx-auto mb-1" />

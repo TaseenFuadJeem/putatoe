@@ -5,3 +5,7 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+.fixed-width {
+    width: 64px !important;
+}
