@@ -1,6 +1,9 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { FaMobileAlt, FaMoneyCheckAlt, FaRegNewspaper, FaBlogger, FaHandshake, FaHandHoldingWater, FaArrowCircleRight } from 'react-icons/fa';
+import { MdMonitor, MdOutlineFeedback } from 'react-icons/md';
+import { HiOutlineSpeakerphone, HiFire, HiOutlineLightBulb } from 'react-icons/hi';
 
 const Features = () => {
     return (
@@ -93,6 +96,59 @@ const Features = () => {
                 />
 
             </Carousel>
+
+            <div className='grid grid-cols-4 gap-3 border shadow-md m-1 mt-3 p-2 rounded-md bg-white'>
+
+                <div>
+                    <FaMobileAlt className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>Prepaid Mobile Recharge</p>
+                </div>
+                <div>
+                    <MdMonitor className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>DTH Recharge Recharge</p>
+                </div>
+                <div>
+                    <FaMoneyCheckAlt className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>Loans</p>
+                </div>
+                <div>
+                    <HiOutlineSpeakerphone className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>Promotion</p>
+                </div>
+                <div>
+                    <FaRegNewspaper className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>News</p>
+                </div>
+                <div>
+                    <FaBlogger className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>Blogs</p>
+                </div>
+                <div>
+                    <FaHandshake className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>Jobs</p>
+                </div>
+                <div>
+                    <MdOutlineFeedback className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>Anonymous Feedback</p>
+                </div>
+                <div>
+                    <HiFire className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>Gas</p>
+                </div>
+                <div>
+                    <HiOutlineLightBulb className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>Electricity Bill</p>
+                </div>
+                <div>
+                    <FaHandHoldingWater className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>Water</p>
+                </div>
+                <div>
+                    <FaArrowCircleRight className="text-primary text-3xl mx-auto mb-1" />
+                    <p className='text-center text-[9px]'>See more</p>
+                </div>
+
+            </div>
 
         </section>
     );

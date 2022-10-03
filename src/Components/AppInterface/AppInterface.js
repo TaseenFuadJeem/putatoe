@@ -4,7 +4,7 @@ import Header from './Header';
 
 const AppInterface = () => {
     return (
-        <section className='overflow-x-auto overflow-y-hidden flex-none'>
+        <section className='overflow-y-auto'>
 
             <Header />
             <Features />

@@ -8,7 +8,7 @@ function App() {
       <div className="mockup-phone">
         <div className="camera"></div>
         <div className="display">
-          <div className="artboard  phone-1">
+          <div className="artboard  phone-1 bg-[#e4f8f9] overflow-auto">
             <AppInterface />
           </div>
         </div>
