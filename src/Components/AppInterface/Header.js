@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdLocationOn } from 'react-icons/md';
-import { BsFillBellFill, BsCartPlus } from 'react-icons/bs';
+import { BsFillBellFill, BsCartPlus, BsMicFill, BsSearch } from 'react-icons/bs';
 
 const Header = () => {
     return (
@@ -19,6 +19,16 @@ const Header = () => {
                         </div>
                     </div>
                     <BsCartPlus className='text-2xl text-white mx-2' />
+
+                </div>
+
+                <div className='flex justify-around items-center mt-2'>
+
+                    <div className='flex items-center bg-white rounded-lg'>
+                        <BsSearch className='ml-2 text-primary' />
+                        <input placeholder="Search For Products..." className='text-white rounded-lg p-1 text-xs border border-white bg-white w-[200px] pl-3' type="text" />
+                    </div>
+                    <BsMicFill className='text-2xl text-white mx-2' />
 
                 </div>
 
