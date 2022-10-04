@@ -1,6 +1,7 @@
 import React from 'react';
 import Consultancy from './Consultancy';
 import DailyNeeds from './DailyNeeds';
+import Electronics from './Electronics';
 import Features from './Features';
 import Header from './Header';
 import Laundry from './Laundry';
@@ -16,6 +17,7 @@ const AppInterface = () => {
             <DailyNeeds />
             <Consultancy />
             <Laundry />
+            <Electronics />
 
         </section>
     );
