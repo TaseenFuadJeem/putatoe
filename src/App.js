@@ -1,6 +1,7 @@
 import './App.css';
 import bg from './Components/Assets/stacked-waves-haikei.svg';
 import AppInterface from './Components/AppInterface/AppInterface';
+import Navbar from './Components/AppInterface/Navbar';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <div className="artboard  phone-1 bg-[#eefafa] overflow-auto">
             <AppInterface />
           </div>
+          <Navbar />
         </div>
       </div>
 
