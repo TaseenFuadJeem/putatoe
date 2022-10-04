@@ -3,6 +3,7 @@ import AllServiceProvider from './AllServiceProvider';
 import Features from './Features';
 import Header from './Header';
 import PopularServices from './PopularServices';
+import ServicesWeProvide from './ServicesWeProvide';
 
 const AppInterface = () => {
     return (
@@ -12,6 +13,7 @@ const AppInterface = () => {
             <Features />
             <PopularServices />
             <AllServiceProvider />
+            <ServicesWeProvide />
 
         </section>
     );
