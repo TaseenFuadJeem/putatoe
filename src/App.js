@@ -6,7 +6,7 @@ function App() {
   return (
     <section className='flex justify-center items-center h-screen bg-no-repeat bg-cover' style={{ backgroundImage: `url(${bg})` }}>
 
-      <div className="mockup-phone">
+      <div className="mockup-phone shadow-2xl">
         <div className="camera"></div>
         <div className="display">
           <div className="artboard  phone-1 bg-[#eefafa] overflow-auto">
